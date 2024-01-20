@@ -49,6 +49,6 @@ def count_items_in_wishlist(url):
 
 
 # 例として、ダミーのURLを使用
-url = "https://www.amazon.co.jp/hz/wishlist/ls/13A6BVSZHVP0A?ref_=list_d_wl_lfu_nav_2"
+url = "https://www.amazon.co.jp/"
 item_count = count_items_in_wishlist(url)
 print(f"ほしいものリストには {item_count} 個の商品があります。")
